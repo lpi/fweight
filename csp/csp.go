@@ -89,6 +89,8 @@ type ContentSecurityPolicy struct {
 	Media SourceList "media-src"
 	//Rules for loading frames
 	Frame SourceList "frame-src"
+	//Rules for frame ancestors
+	Ancestors SourceList "frame-ancestors"
 
 	//A series of strings representing what policies to ignore in the sandbox
 	//for this resource.
